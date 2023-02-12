@@ -1,0 +1,115 @@
+:host {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-authorization {
+  width: 80%;
+  padding: 0 15px;
+  height: 73%;
+  /* background-color: lightcyan; */
+  font-style: normal;
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.sub-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8d8d8d;
+}
+.form {
+}
+
+.group {
+  border: none;
+}
+
+.group-element {
+  display: flex;
+  height: 60px;
+  flex-direction: column;
+  letter-spacing: 0.02em;
+}
+
+.group-element:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.label-element {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input-element {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.btn-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.btn-auth,
+.link-sing-up {
+  height: 65px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn-auth {
+  background-color: #000000;
+  color: #fff;
+}
+
+.link-sing-up {
+  border: 1px solid #8d8d8d;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: block;
+  background: url("../../../assets/google-icon.svg") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.text-sing-in {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 65px;
+}
+
+.link-sing-in {
+  text-decoration: none;
+}
